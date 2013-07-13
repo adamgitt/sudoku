@@ -1,0 +1,4 @@
+# install this file into /etc/bash_completion.d/gourmet on a
+# Debian Linux System
+#
+#complete -F _optcomplete gourmet

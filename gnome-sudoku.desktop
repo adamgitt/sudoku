@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Sudoku
+Comment=Play Sudoku (a Japanese logic puzzle)
+Exec=gnome-sudoku
+Terminal=false
+Type=Application
+Categories=GNOME;Application;Game;PuzzleGame;
+StartupNotify=true
+Icon=sudoku.svg
+Encoding=UTF-8

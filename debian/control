@@ -1,0 +1,19 @@
+Source: gnome-sudoku
+Section: games
+Priority: optional
+Maintainer: Thomas Mills Hinkle <Thomas_Hinkle@alumni.brown.edu>
+Build-Depends: debhelper (>= 4.0.0), build-essential, debhelper (>= 4.1.0), python2.4-dev, gconf2, python2.4-gtk2 (>=2.6), python2.4-glade2, python2.4-gnome2, python2.4-gnome2-extras, python2.4-numeric, intltool, python2.4-imaging
+Standards-Version: 3.6.2
+
+Package: gnome-sudoku
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, python (>=2.4), python2.4-gtk2 (>=2.6), python2.4-imaging, python2.4-glade2, python2.4-gnome2, python2.4-gnome2-extras, python2.4-numeric
+Description: A puzzle game for the popular Japanese sudoku logic puzzle.
+ GNOME Sudoku is a simple player for the sudoku number logic puzzle.
+ GNOME Sudoku generates unique, symmetrical puzzles and rates their
+ difficulty. Games can be played or printed, so GNOME Sudoku can be used
+ to print out a set of puzzles to take with you or to play a puzzle at a
+ time on screen. All games persist across sessions and you can resume any
+ old game at any time, as well as replay any game you've already won.
+ More information about GNOME Sudoku can be found at 
+ http://gnome-sudoku.sf.net

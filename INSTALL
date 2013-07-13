@@ -1,0 +1,23 @@
+To install simply run
+
+python setup.py install
+
+as root.
+
+Assuming all goes well, you can now run GNOME Sudoku by typing
+gnome-sudoku at the commandline or by selecting "Sudoku" from the
+"Games" section of your "Applications" menu.
+
+You can use --prefix to change the base of your installation (the default will be /usr/)
+
+REQUIREMENTS
+
+Python 2.4
+
+Relatively recent GNOME and gtk libraries (pygtk 2.6 will definitely
+work; 2.4 may or may not work).
+
+Python Imaging Library (PIL)
+
+Maybe something else -- this is the first version to make it into the
+world, so I may well be forgetting some requirements!

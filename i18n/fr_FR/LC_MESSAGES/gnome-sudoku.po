@@ -1,0 +1,653 @@
+# GNOME Sudoku
+# Copyright (C) 2005 Thomas M. Hinkle
+# Thomas M. Hinkle <Thomas_Hinkle@alumni.brown.edu>, 2005.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"Report-Msgid-Bugs-To: Cécile Vénéziani <cveneziani@linux62.org>\n"
+"POT-Creation-Date: 2006-01-08 00:30+GMT\n"
+"PO-Revision-Date: 2006-01-08 12:53+0100\n"
+"Last-Translator: Cécile Vénéziani <cveneziani@linux62.org>\n"
+"Language-Team: French <gnomefr@traduc.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit"
+
+
+#: gnome_sudoku/defaults.py:7
+msgid "GNOME Sudoku is a simple sudoku generator and player.  Sudoku is a japanese logic puzzle."
+msgstr "GNOME Sudoku est un générateur et jeu de sudoku. Le sudoku est un jeu de réflexion japonais."
+
+#: gnome_sudoku/game_selector.py:69 gnome_sudoku/game_selector.py:185
+#: gnome_sudoku/game_selector.py:276 gnome_sudoku/gnome_sudoku.py:679
+#: gnome_sudoku/sudoku_maker.py:324 gnome_sudoku/sudoku_maker.py:351
+#: gnome_sudoku/sudoku_maker.py:433
+msgid "Puzzle"
+msgstr "Grille"
+
+#: gnome_sudoku/gnome_sudoku.py:721
+msgid "FAQ"
+msgstr "FAQ-fr_FR"
+
+#: gnome_sudoku/game_selector.py:80
+msgid "Squares instantly fillable by filling: "
+msgstr "Cases remplissables immédiatement par position : "
+
+#: gnome_sudoku/game_selector.py:82
+msgid "Squares instantly fillable by elimination: "
+msgstr "Cases remplissables immédiatement par élimination : "
+
+#: gnome_sudoku/game_selector.py:84
+msgid "Number of guesses necessary to solve: "
+msgstr "Nombre d'hypothèses nécessaires à la résolution : "
+
+#: gnome_sudoku/game_selector.py:86
+msgid "Difficulty value: "
+msgstr "Niveau : "
+
+#: gnome_sudoku/game_selector.py:99 gnome_sudoku/game_selector.py:128
+msgid "Name"
+msgstr "Nom"
+
+#: gnome_sudoku/game_selector.py:101 gnome_sudoku/game_selector.py:131
+#: gnome_sudoku/game_selector.py:277
+msgid "Difficulty"
+msgstr "Niveau"
+
+#: gnome_sudoku/game_selector.py:135
+msgid "Started"
+msgstr "Démarré"
+
+#: gnome_sudoku/game_selector.py:141
+msgid "Last Played"
+msgstr "Dernière action"
+
+#: gnome_sudoku/game_selector.py:146
+msgid "Status"
+msgstr "Etat"
+
+#: gnome_sudoku/game_selector.py:173
+msgid "Printed %s ago"
+msgstr "Imprimé il y a %s"
+
+#: gnome_sudoku/game_selector.py:182
+msgid "Played for %s"
+msgstr "Joué pendant %s"
+
+#: gnome_sudoku/game_selector.py:206
+msgid "%s ago"
+msgstr "il y a %s"
+
+#: gnome_sudoku/game_selector.py:233
+msgid "Player"
+msgstr "Joueur"
+
+#: gnome_sudoku/game_selector.py:238
+msgid "Score"
+msgstr "Score"
+
+#: gnome_sudoku/game_selector.py:241
+msgid "Date"
+msgstr "Date"
+
+#: gnome_sudoku/game_selector.py:283
+msgid "Hints"
+msgstr "Indices"
+
+#: gnome_sudoku/game_selector.py:284
+msgid "Warnings about unfillable squares"
+msgstr "Cases insolvables indiquées"
+
+#: gnome_sudoku/game_selector.py:286
+msgid "Auto-fills"
+msgstr "Remplissages automatiques"
+
+#: gnome_sudoku/game_selector.py:287
+msgid "Finished in"
+msgstr "Fini en"
+
+#: gnome_sudoku/gnome_sudoku.py:24
+msgid "Track moves"
+msgstr "Placements de la piste"
+
+#: gnome_sudoku/gnome_sudoku.py:135
+msgid "_File"
+msgstr "_Fichier"
+
+#: gnome_sudoku/gnome_sudoku.py:137
+msgid "Generate new game"
+msgstr "Génère une nouvelle grille"
+
+#: gnome_sudoku/gnome_sudoku.py:139
+msgid "Print current game"
+msgstr "Imprime la grille courante"
+
+#: gnome_sudoku/gnome_sudoku.py:140
+msgid "Print _Multiple Sudokus"
+msgstr "Imprimer _plusieurs Sodukus"
+
+#: gnome_sudoku/gnome_sudoku.py:141
+msgid "Print many sudokus at a time."
+msgstr "Imprime plusieurs sudokus"
+
+#: gnome_sudoku/gnome_sudoku.py:145
+msgid "Close Sudoku (save game for later)"
+msgstr "Quitte GNOME Sudoku (grille courante sauvée)"
+
+#: gnome_sudoku/gnome_sudoku.py:149
+msgid "_Enter custom game"
+msgstr "_Créer une gille personnalisée"
+
+#: gnome_sudoku/gnome_sudoku.py:150
+msgid "Enter new puzzle by hand (use this to copy a puzzle from another source)."
+msgstr "Création d'une grille personnalisée (à utiliser pour copier une grille provenance d'une autre source)"
+
+#: gnome_sudoku/gnome_sudoku.py:152
+msgid "_Resume old game"
+msgstr "_Reprendre un ancien jeu"
+
+#: gnome_sudoku/gnome_sudoku.py:153
+msgid "Resume a previous saved game."
+msgstr "Reprend un ancien jeu"
+
+#: gnome_sudoku/gnome_sudoku.py:155
+msgid "_Game"
+msgstr "_Jeu"
+
+#: gnome_sudoku/gnome_sudoku.py:156
+msgid "_View"
+msgstr "Afficha_ge"
+
+#: gnome_sudoku/gnome_sudoku.py:157
+msgid "_Hint"
+msgstr "_Indice"
+
+#: gnome_sudoku/gnome_sudoku.py:159
+msgid "Show which numbers could go in the current square."
+msgstr "Affiche les chiffres possibles pour la case courante"
+
+#: gnome_sudoku/gnome_sudoku.py:161
+msgid "Automatically fill in the current square if possible."
+msgstr "Remplit, si possible, automatiquement la case courante"
+
+#: gnome_sudoku/gnome_sudoku.py:161
+msgid "_Fill"
+msgstr "_Remplir"
+
+#: gnome_sudoku/gnome_sudoku.py:163
+msgid "Automatically fill in all squares for which there is only one valid value."
+msgstr "Remplit automatiquement les cases pour lesquelles il n'y a qu'une seule valeur possible"
+
+#: gnome_sudoku/gnome_sudoku.py:163
+msgid "Fill _all squares"
+msgstr "Remplir _toutes les cases"
+
+#: gnome_sudoku/gnome_sudoku.py:165
+msgid "_Increase size"
+msgstr "Zoom a_vant"
+
+#: gnome_sudoku/gnome_sudoku.py:166
+msgid "Increase the size of numbers and squares"
+msgstr "Agrandit la taille des chiffres et des cases"
+
+#: gnome_sudoku/gnome_sudoku.py:168
+msgid "_Decrease size"
+msgstr "Zoom a_rrière"
+
+#: gnome_sudoku/gnome_sudoku.py:169
+msgid "Decrease the size of numbers and squares."
+msgstr "Réduit la taille des chiffres et des cases"
+
+#: gnome_sudoku/gnome_sudoku.py:173
+msgid "Puzzle _Statistics"
+msgstr "Statisti_ques de la grille"
+
+#: gnome_sudoku/gnome_sudoku.py:174
+msgid "Show statistics about current puzzle"
+msgstr "Affiche les statistiques de la grille courante"
+
+#: gnome_sudoku/gnome_sudoku.py:176
+msgid "_Help"
+msgstr "_Aide"
+
+#: gnome_sudoku/gnome_sudoku.py:182
+msgid "High _Scores"
+msgstr "_Scores"
+
+#: gnome_sudoku/gnome_sudoku.py:183
+msgid "Show high scores or replay old games."
+msgstr "Affiche les scores ou rejoue les anciens jeux"
+
+#: gnome_sudoku/gnome_sudoku.py:189
+msgid "_Always show hint"
+msgstr "Toujours _afficher les indices"
+
+#: gnome_sudoku/gnome_sudoku.py:191
+msgid "Always show possible numbers in a square"
+msgstr "Affiche toujours les indices"
+
+#: gnome_sudoku/gnome_sudoku.py:195
+msgid "Warn about _unfillable squares"
+msgstr "Indiquer les _cases insolvables"
+
+#: gnome_sudoku/gnome_sudoku.py:197
+msgid "Warn about squares made unfillable by a move"
+msgstr "Indique les case insolvables"
+
+#: gnome_sudoku/gnome_sudoku.py:199
+msgid "_Track additions"
+msgstr "Afficher les _pistes"
+
+#: gnome_sudoku/gnome_sudoku.py:201
+msgid "Mark new additions in a separate color so you can keep track of them."
+msgstr "Signale les nouvelles pistes dans une couleur différente de manière à pouvoir les identifier"
+
+#: gnome_sudoku/gnome_sudoku.py:203
+msgid "_Adjust size of grid when resizing window"
+msgstr "_Ajuster la grille à la taille de la fenêtre"
+
+#: gnome_sudoku/gnome_sudoku.py:204
+msgid "Automatically change the size of numbers and squares to fit the window."
+msgstr "Ajuste les chiffres et cases de la grille à la taille de la fenêtre"
+
+#: gnome_sudoku/gnome_sudoku.py:206
+msgid "Show _Toolbar"
+msgstr "Barre d'_outils"
+
+#: gnome_sudoku/gnome_sudoku.py:207
+msgid "Generate new puzzles _while you play"
+msgstr "Géné_rer de nouvelles grilles pendant le jeu"
+
+#: gnome_sudoku/gnome_sudoku.py:208
+msgid "Generate new puzzles in the background while you play. This will automatically pause when the game goes into the background."
+msgstr "Génère de nouvelles grilles pendant le jeu. La génération se stoppe automatiquement quand le jeu n'est pas actif"
+
+#: gnome_sudoku/gnome_sudoku.py:214
+msgid "_Edit"
+msgstr "_Edition"
+
+#: gnome_sudoku/gnome_sudoku.py:215
+msgid "Undo last action"
+msgstr "Annule la dernière action"
+
+#: gnome_sudoku/gnome_sudoku.py:215
+msgid "_Undo"
+msgstr "A_nnuler"
+
+#: gnome_sudoku/gnome_sudoku.py:216
+msgid "Redo last action"
+msgstr "Refait la dernière action annulée"
+
+#: gnome_sudoku/gnome_sudoku.py:216
+msgid "_Redo"
+msgstr "_Refaire"
+
+#: gnome_sudoku/gnome_sudoku.py:217
+msgid "Clear entries you've filled in"
+msgstr "Efface les cases remplies"
+
+#: gnome_sudoku/gnome_sudoku.py:217
+msgid "_Clear"
+msgstr "E_ffacer"
+
+#: gnome_sudoku/gnome_sudoku.py:219 gnome_sudoku/gnome_sudoku.py:768
+msgid "No Tracker"
+msgstr "Pas de piste"
+
+#: gnome_sudoku/gnome_sudoku.py:220
+msgid "Generate new puzzles."
+msgstr "Génère de nouvelles grilles"
+
+#: gnome_sudoku/gnome_sudoku.py:220
+msgid "_Generate new puzzles"
+msgstr "_Générer de nouvelles grilles"
+
+#: gnome_sudoku/gnome_sudoku.py:281
+msgid "Entering custom grid..."
+msgstr "Création d'une grille personnalisée"
+
+#: gnome_sudoku/gnome_sudoku.py:285
+msgid "_Play game"
+msgstr "_Jouer"
+
+#: gnome_sudoku/gnome_sudoku.py:665
+msgid "Calculated difficulty: "
+msgstr "Calcul du niveau : "
+
+#: gnome_sudoku/gnome_sudoku.py:669
+msgid "Number of moves instantly fillable by elimination: "
+msgstr "Nombre de placements immédiats par élimination : "
+
+#: gnome_sudoku/gnome_sudoku.py:672
+msgid "Number of moves instantly fillable by filling: "
+msgstr "Nombre de placements immédiats par position : "
+
+#: gnome_sudoku/gnome_sudoku.py:675
+msgid "Number of guesses required to solve: "
+msgstr "Nombre d'hypothèses nécessaires à la résolution : "
+
+#: gnome_sudoku/gnome_sudoku.py:682
+msgid "Puzzle Information"
+msgstr "Informations sur la grille"
+
+#: gnome_sudoku/gnome_sudoku.py:683
+msgid "Statistics for %s"
+msgstr "Statistiques pour la %s"
+
+#: gnome_sudoku/gnome_sudoku.py:777
+#: ../glade/tracker.glade.h:3
+msgid "_Clear Tracker"
+msgstr "_Supprimer la piste"
+
+#: gnome_sudoku/gnome_sudoku.py:778
+msgid "Clear all moves tracked by selected tracker."
+msgstr "Supprime la piste courante"
+
+#: gnome_sudoku/gnome_sudoku.py:782
+msgid "_Clear Others"
+msgstr "Supprimer les autres _pistes"
+
+#: gnome_sudoku/gnome_sudoku.py:784
+msgid "Clear all moves not tracked by selected tracker."
+msgstr "Supprime les autres _pistes"
+
+#: gnome_sudoku/gnome_sudoku.py:810
+msgid "Tracker %s"
+msgstr "Piste %s"
+
+#: gnome_sudoku/gsudoku.py:284
+msgid "Possible values "
+msgstr "Valeurs possibles "
+
+#: gnome_sudoku/gsudoku.py:286
+msgid "No values are possible!"
+msgstr "Aucune valeur possible !"
+
+#: gnome_sudoku/printing.py:216
+msgid "Print Preview"
+msgstr "Aperçu avant impression"
+
+#: gnome_sudoku/sudoku.py:602
+msgid "Very Hard"
+msgstr "Diabolique"
+
+#: gnome_sudoku/sudoku.py:603
+msgid "Hard"
+msgstr "Difficile"
+
+#: gnome_sudoku/sudoku.py:604
+msgid "Medium"
+msgstr "Moyen"
+
+#: gnome_sudoku/sudoku.py:605
+msgid "Easy"
+msgstr "Facile"
+
+#: gnome_sudoku/sudoku_generator_gui.py:88
+#: gnome_sudoku/sudoku_generator_gui.py:99
+msgid "Working..."
+msgstr "Préparation..."
+
+#: gnome_sudoku/sudoku_generator_gui.py:176
+#: gnome_sudoku/sudoku_generator_gui.py:199
+msgid "Paused"
+msgstr "Pause"
+
+#: gnome_sudoku/sudoku_generator_gui.py:181
+msgid "Stopped"
+msgstr "Arrêté"
+
+#: gnome_sudoku/sudoku_generator_gui.py:195
+msgid "Generated %s out of %s puzzles"
+msgstr "Grille générées : %s/%s"
+
+#: gnome_sudoku/sudoku_generator_gui.py:198
+msgid "Generated %s puzzles"
+msgstr "%s grilles générées"
+
+#: gnome_sudoku/timer.py:42
+msgid ", "
+msgstr ", "
+
+#: gnome_sudoku/timer.py:42 gnome_sudoku/timer.py:44
+msgid " and "
+msgstr " et "
+
+#: gnome_sudoku/timer.py:54
+msgid "Today"
+msgstr "Aujourd'hui"
+
+#: gnome_sudoku/timer.py:56
+msgid "Yesterday"
+msgstr "Hier"
+
+#: ../glade/high_scores.glade.h:1
+msgid "<span size=\"large\" style=\"italic\" weight=\"bold\">You win!</span>"
+msgstr "<span size=\"large\" style=\"italic\" weight=\"bold\">Gagné !</span>"
+
+#: ../glade/high_scores.glade.h:2
+msgid "High Scores"
+msgstr "Scores"
+
+#: ../glade/high_scores.glade.h:3
+msgid "_High Scores"
+msgstr "_Scores"
+
+#: ../glade/new_game.glade.h:1 ../glade/print_games.glade.h:1
+msgid "<i>Easy</i>"
+msgstr "<i>Facile</i>"
+
+#: ../glade/new_game.glade.h:2 ../glade/print_games.glade.h:2
+msgid "<i>Hard</i>"
+msgstr "<i>Difficile</i>"
+
+#: ../glade/new_game.glade.h:3 ../glade/open_game.glade.h:1
+msgid "<span size=\"larger\" weight=\"bold\">Select Game</span>"
+msgstr "<span size=\"larger\" weight=\"bold\">Choix de la grille</span>"
+
+#: ../glade/new_game.glade.h:4
+msgid "Choose the _level of difficulty for your new game."
+msgstr "Choisissez le _niveau de difficulté pour le nouveau jeu"
+
+#: ../glade/new_game.glade.h:5
+msgid "New Game"
+msgstr "Nouveau Jeu"
+
+#: ../glade/new_game.glade.h:6
+msgid "_Details"
+msgstr "_Détails"
+
+#: ../glade/new_game.glade.h:7 ../glade/open_game.glade.h:4
+msgid "_Play"
+msgstr "Joue_r"
+
+#: ../glade/open_game.glade.h:2
+msgid "Choose _game"
+msgstr "Choisir une _grille"
+
+#: ../glade/open_game.glade.h:3
+msgid "Open Game"
+msgstr "Ouvrir un jeu"
+
+#: ../glade/print_games.glade.h:3
+msgid "<span size=\"larger\" weight=\"bold\">Print Games</span>"
+msgstr "<span size=\"larger\" weight=\"bold\">Impression de grilles</span>"
+
+#: ../glade/print_games.glade.h:4
+msgid "Choose the _level of difficulty for games"
+msgstr "Choisir le niveau de difficulté des grilles"
+
+#: ../glade/print_games.glade.h:5
+msgid "Ma_ximum Difficulty"
+msgstr "Niveau M_aximum"
+
+#: ../glade/print_games.glade.h:6
+msgid "Print Sudokus"
+msgstr "Imprimer plusieurs Sudokus"
+
+#: ../glade/print_games.glade.h:7
+msgid "_Game List"
+msgstr "_Liste des grilles"
+
+#: ../glade/print_games.glade.h:8
+msgid "_Include games you've already played in list of games to print"
+msgstr "_Inclure les grilles déjà jouées dans la liste des grilles à imprimer"
+
+#: ../glade/print_games.glade.h:9
+msgid "_Label games with difficulty and name."
+msgstr "_Imprimer le niveau de difficulté et le nom de la grille"
+
+#: ../glade/print_games.glade.h:10
+msgid "_Mark games as played once you've printed them."
+msgstr "Mar_quer les jeux comme joués après l'impression"
+
+#: ../glade/print_games.glade.h:11
+msgid "_Minimum Difficulty"
+msgstr "Niveau _Minimum"
+
+#: ../glade/print_games.glade.h:12
+msgid "_Number of sudoku to print: "
+msgstr "_Nombre de sudokus à imprimer : "
+
+#: ../glade/print_games.glade.h:13
+msgid "_Sudokus per page: "
+msgstr "_Sudokus par page : "
+
+#: ../glade/puzzle_generator.glade.h:1
+msgid "<i><u>Number of Puzzles</u></i>"
+msgstr "<i><u>Nombre de Grilles</u></i>"
+
+#: ../glade/puzzle_generator.glade.h:2
+msgid "<i>Easy:</i>"
+msgstr "<i>Facile :</i>"
+
+#: ../glade/puzzle_generator.glade.h:3
+msgid "<i>Hard:</i>"
+msgstr "<i>Difficile :</i>"
+
+#: ../glade/puzzle_generator.glade.h:4
+msgid "<i>Medium:</i>"
+msgstr "<i>Moyen :</i>"
+
+#: ../glade/puzzle_generator.glade.h:5
+msgid "<i>Very Hard:</i>"
+msgstr "<i>Diabolique :</i>"
+
+#: ../glade/puzzle_generator.glade.h:6
+msgid "<span size=\"larger\" weight=\"bold\">Puzzle Generator</span>"
+msgstr "<span size=\"larger\" weight=\"bold\">Générateur de Grilles</span>"
+
+#: ../glade/puzzle_generator.glade.h:7
+msgid "Criteria:"
+msgstr "Niveau :"
+
+#: ../glade/puzzle_generator.glade.h:8
+msgid "Generate Policy"
+msgstr "Politique de génération"
+
+#: ../glade/puzzle_generator.glade.h:9
+msgid "Generate until _reaching target"
+msgstr "Générer de nouvelles grilles _jusqu'à atteindre le nombre désiré"
+
+#: ../glade/puzzle_generator.glade.h:10
+msgid "Puzzle Generator"
+msgstr "Générateur de Grilles"
+
+#: ../glade/puzzle_generator.glade.h:11
+msgid "Target _number of sudokus:"
+msgstr "_Nombre de sudokus à générer :"
+
+#: ../glade/puzzle_generator.glade.h:13
+msgid "_Easy"
+msgstr "_Facile"
+
+#: ../glade/puzzle_generator.glade.h:14
+msgid "_Generate"
+msgstr "_Générer"
+
+#: ../glade/puzzle_generator.glade.h:15
+msgid "_Generate new puzzles until stopped"
+msgstr "_Générer de nouvelles grilles jusqu'à interrruption"
+
+#: ../glade/puzzle_generator.glade.h:16
+msgid "_Hard"
+msgstr "_Difficile"
+
+#: ../glade/puzzle_generator.glade.h:17
+msgid "_Medium"
+msgstr "_Moyen"
+
+#: ../glade/tracker.glade.h:1
+msgid "Clear _Others"
+msgstr "Supprimer les autres _pistes"
+
+#: ../glade/tracker.glade.h:2
+msgid "_Add Tracker"
+msgstr "_Ajouter une piste"
+
+#: ../glade/tracker.glade.h:4
+msgid "_Trackers"
+msgstr "Pistes"
+
+#: ../glade/puzzle_generator.glade.h:12
+msgid "_Very Hard"
+msgstr "Dia_bolique"
+
+
+# Manually added, as neither pygettext nor xgettext support plural forms
+# in Python.
+
+#: gnome_sudoku/printing.py:203
+msgid "Print Sudoku"
+msgid_plural "Print Sudokus"
+msgstr[0] "Imprimer un Sudoku"
+msgstr[1] "Imprimer des Sudokus"
+
+#: gnome_sudoku/sudoku_generator_gui.py:137
+msgid "%s puzzle"
+msgid_plural "%s puzzles"
+msgstr[0] "%s grille"
+msgstr[1] "%s grilles"
+
+#: gnome_sudoku/timer.py:12
+msgid "%s year"
+msgid_plural "%s years"
+msgstr[0] "%s an"
+msgstr[1] "%s ans"
+
+#: gnome_sudoku/timer.py:14
+msgid "%s month"
+msgid_plural "%s months"
+msgstr[0] "%s mois"
+msgstr[1] "%s mois"
+
+#: gnome_sudoku/timer.py:16
+msgid "%s week"
+msgid_plural "%s weeks"
+msgstr[0] "%s semaine"
+msgstr[1] "%s semaines"
+
+#: gnome_sudoku/timer.py:18
+msgid "%s day"
+msgid_plural "%s days"
+msgstr[0] "%s jour"
+msgstr[1] "%s jours"
+
+#: gnome_sudoku/timer.py:20
+msgid "%s hour"
+msgid_plural "%s hours"
+msgstr[0] "%s heure"
+msgstr[1] "%s heures"
+
+#: gnome_sudoku/timer.py:22
+msgid "%s minute"
+msgid_plural "%s minutes"
+msgstr[0] "%s minute"
+msgstr[1] "%s minutes"
+
+#: gnome_sudoku/timer.py:24
+msgid "%s second"
+msgid_plural "%s seconds"
+msgstr[0] "%s seconde"
+msgstr[1] "%s secondes"

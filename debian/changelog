@@ -1,0 +1,54 @@
+gnome-sudoku (0.4.0-1) breezy; urgency=low
+  * Improve keyboard navigation by sensitizing squares with givens.
+  * Improve font auto-resizing on window-resize.
+  * Improve menu organization.
+  * Add (kind of lame) full-screen mode.
+  * Make window disappear immediately when closing.
+  * Updated dependencies to reflect need for python2.4, python-imaging.
+
+ -- Thomas M. Hinkle <thomas_hinkle@sf.net>  Sat,  3 Dec 2005 21:49:47 -0500
+
+gnome-sudoku (0.3.4-1) breezy; urgency=low
+
+  * Changed auto-fill options: introduce a standard fill-this-square button
+    and made Auto-fill of all squares use both fill-by-filling and
+    fill-by-elimination
+  * Fixed pynum related error that caused type error on arrays. (thanks
+    to Yann Rouillard (chninkel))
+  * Fix debian package to be cross-platform.
+  * Changed setup.py to install into /usr/ instead of /usr/local/, and hence
+    to avoid hundreds of future e-mails from fedora users whose python path 
+    doesn't include /usr/local/
+
+ -- Thomas Mills Hinkle <Thomas_Hinkle@alumni.brown.edu>  Thu,  1 Dec 2005 20:26:01 -0500
+
+gnome-sudoku (0.3.3-1) breezy; urgency=low
+	
+  * Fix bug when entering a custom puzzle.
+  * Fix up package for upcoming ubuntu inclusion.
+
+ -- Thomas Mills Hinkle <Thomas_Hinkle@alumni.brown.edu>  Tues, 13 September 2005 07:07:11 -0400
+
+gnome-sudoku (0.3.2-2) unstable; urgency=low
+	
+  * Add python-gnome2-extras to dependencies list.
+
+ -- Thomas Mills Hinkle <Thomas_Hinkle@alumni.brown.edu>  Friday, 02 September 2005 20:55:11 -0400
+	 
+gnome-sudoku (0.3.2-1) unstable; urgency=low
+	
+  * Typo fix -- fixes bug when showing high scores.
+
+ -- Thomas Mills Hinkle <Thomas_Hinkle@alumni.brown.edu>  Wed, 31 August 2005 20:55:11 -0400
+	 
+gnome-sudoku (0.3.1-1) unstable; urgency=low
+
+  * A few quick bugfixes
+	
+ -- Thomas Mills Hinkle <Thomas_Hinkle@alumni.brown.edu>  Mon, 15 August 2005 22:51:11 -0400
+
+gnome-sudoku (0.3.0-1) unstable; urgency=low
+
+  * First debian package.
+
+ -- Thomas Mills Hinkle <Thomas_Hinkle@alumni.brown.edu>  Mon, 15 August 2005 10:05:11 -0400

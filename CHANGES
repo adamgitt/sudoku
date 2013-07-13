@@ -1,0 +1,47 @@
+-- 0.3.5 changes from 0.3.4 --
+* Improve keyboard navigation by sensitizing squares with givens.
+* Improve font auto-resizing on window-resize.
+* Improve menu organization.
+* Add (kind of lame) full-screen mode.
+* Make window disappear immediately when closing.
+* Packaging fixes
+
+-- 0.3.4 changes from 0.3.3 --
+* Changed auto-fill options: introduce a standard fill-this-square button
+  and made Auto-fill of all squares use both fill-by-filling and
+  fill-by-elimination
+* Fixed pynum related error that caused type error on arrays. (thanks
+  to Yann Rouillard (chninkel))
+* Fix debian package to be cross-platform.
+* Changed setup.py to install into /usr/ instead of /usr/local/, and hence
+  to avoid hundreds of future e-mails from fedora users whose python path 
+  doesn't include /usr/local/
+
+-- 0.3.3 changes from 0.3.2 --
+* Typo fix -- fixes bug when entering a custom puzzle.
+
+-- 0.3.2 changes from 0.3.1 --
+* Typo fix -- fixes bug when showing high scores.
+
+-- 0.3.0 changes from 0.2 --
+* Added multiple-sudoku printer
+* Fixed more problems in high scores
+* Fixed formatting of times in high scores (to use Today, Yesterday, etc.)
+* Got rid of annoying type errors (int v. float) that printed on console.
+
+-- 0.2.2 changes from 0.2 --
+* Fixed undo after autofill
+* Fixed high-scores
+
+-- 0.2.1 changes from 0.2 --
+* Fixed __init__.py in src/lib/ so gnome-sudoku actually works.
+
+-- 0.2 changes from 0.1 --
+
+* Support for printing (currently only the current game, though the
+  architecture is there for more)
+* Much faster generation of unique sudoku.
+
+-- GNOME Sudoku 0.1 --
+* First release, with infinite undo, game persistence, etc.
+

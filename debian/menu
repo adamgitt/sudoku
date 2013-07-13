@@ -1,0 +1,2 @@
+?package(gnome-sudoku):needs=X11 section=Apps/see-menu-manual\
+  title="gnome-sudoku" command="/usr/bin/gnome-sudoku"
